@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FAQs</title>
+
+
+    <style media="screen">
+      *{
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    user-select: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #ddfaf8;
+}
+.head{
+    color: #13abc4;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+    font-size: 50px;
+}
+
+.head2{
+  width: 50%;
+    color: #13abc4;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.accordion{
+    height: 50px;
+    width: 1200px;
+    margin-top: 20px;
+    background-color: #13abc4;
+    color: #fff;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 14px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+}
+
+.title{
+    font-size: large;
+    width: 95%;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    color: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+.info{
+    height: 0;
+    width: 1200px;
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    position: relative;
+    overflow: hidden;
+    border: 0;
+    transition: height .4s;
+}
+.info.reveal{
+    min-height: 250px;
+    border: 1px solid #13abc4;
+    border-radius: 0 0 10px 10px;
+    transition: height .4s;
+}
+.accordion.radius{
+border-radius:10px 10px  0 0 ;
+}
+
+@media screen and (max-width: 500px){
+    .accordion, .info{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px){
+    .accordion, .info{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 350px){
+    .accordion, .info{
+        width: 300px;
+    }
+}
+    </style>
+
+
+  </head>
+  <body>
+    <h1 class="head">Frequently Asked Questions</h1>
+    <h1 class="head2">ABOUT THE PROGRAMME</h1>
+   <div class="accordion">
+       <p class="title">1. What is this programme about?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The ‘Let’s Get Our Seniors Vaccinated’ programme aims to encourage individuals (“referrer”) aged 17
+         years and over to refer unvaccinated seniors aged 60 years and over for COVID-19 vaccination and
+         support them in their vaccination journey. With vaccination, seniors will be able to better protect
+         themselves and their loved ones. Referrers are encouraged to support seniors by explaining the importance
+         and benefits of COVID-19 vaccination and assist them to have their concerns addressed by doctors. Referrers
+         are required to accompany the senior for their vaccination and are encouraged to care and support them
+         after each dose.
+<br><br>
+        As a token of appreciation for the time and effort taken to provide care and support for the senior,
+        the referrer will be given $30 HPB eVouchers, which will be credited in the referrer’s Healthy 365 account,
+        for each successful referral.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">2. When will this programme start and end?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The ‘Let’s Get Our Seniors Vaccinated’ programme will start from 13 August 2021 and end on 30 November 2021.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">3. Who is eligible to sign up for this programme?
+
+       </p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>You are eligible to participate if you are:
+         <br>
+         a.A Singapore citizen, Permanent Resident, Employment Pass holder or Work Permit holder; and
+         <br><br>
+         b.An individual aged 17 years and over at the time of enrolment,
+         based on the calendar year in which the individual was born; and
+         <br><br>
+         c.Not volunteering in HPB’s Health Ambassador Programme0
+         <br><br>
+         AND the senior you are referring is:
+         <br><br>
+         d.An individual aged 60 years and over at the time of enrolment,
+         based on the calendar year in which the individual was born.
+         <br><br>
+         e.Has not received any doses of the COVID-19 vaccine prior to the date of pre-registering for this programme.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">4. Can I participate in this programme if I am not vaccinated?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>Yes, you can still participate in this programme even if you are not vaccinated. However,
+         we encourage everyone, especially those who are medically eligible, to receive vaccination.
+         It would be more assuring for the senior to be supported by someone who has undergone COVID-19 vaccination
+       </p>
+   </div>
+   <h1 class="head2">PARTICIPATING IN THE 'LET’S GET OUR SENIORS VACCINATED' PROGRAMME</h1>
+   <div class="accordion">
+       <p class="title">5. Where do I find the list of vaccination centres with the 'Let's Get Our Seniors Vaccinated' programme?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>
+<a href="List_of_Vaccination_Centres.pdf">Click here</a> for a list of vaccination centres with the 'Let's Get Our Seniors Vaccinated' programme.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">6. What happens if the senior is being registered by more than one referrer?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The unvaccinated senior can only be registered by one referrer. The pre-registration applications will be assessed on a first-come, first-served basis.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">7. Can I refer more than one senior for this programme?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>Yes, you may refer and receive a token of appreciation for each successful referral, up to a maximum of 10 seniors. Please submit one pre-registration form for each senior referred.
+
+However, if you are able to encourage and support more seniors to be vaccinated, please continue to do so. This is to help seniors to better protect themselves and their loved ones.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">8. Who will receive the token of appreciation?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The referrer will receive the token of appreciation if the following requirements are met:
+         <br>
+         a.Referrer and referred seniors are both eligible for the programme (refer to Question 3 for eligibility criteria).
+         <br>
+         b.Successfully pre-registered for the programme and received the SMS confirmation prior to the date of senior’s first dose of vaccination.
+         <br>
+         c.Accompanied senior for his/her first vaccination dose at selected Vaccination Centres and successfully completed the registration process on-ground.
+         <br>
+         d.Referred senior received their first dose of vaccine no later than 30 November 2021.
+         <br>
+         e.Seniors complete 2 doses of the COVID-19 vaccination at selected Vaccination Centres no later than 25 January 2022, and HPB has verified that the senior has been fully vaccinated.
+         <br><br>
+         The token of appreciation will be credited to the referrer’s Healthy 365 account approximately 3 weeks after the senior has fully completed the COVID-19 vaccination.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">9. I received an SMS informing me that I am not eligible or not able to continue participation in the programme, even though I accompanied the senior for his/her first vaccination dose and completed the registration process. Why?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>Referrers may be rejected from the programme due to one of the following reasons:
+         <br>
+         a.Referrer did not successfully pre-register prior to the senior receiving his/her first dose of vaccination.
+         <br>
+         b.Senior is below 60 years old.
+         <br>
+         c.Referrer has successfully referred 10 seniors prior (maximum number of referrals per person reached).
+         <br>
+         d.Senior’s vaccination status could not be determined despite HPB’s best efforts due to incorrect information provided or otherwise.
+         <br>
+         e.Senior was already referred by another individual prior.
+         <br>
+         f.Senior did not receive both doses of their vaccination at the selected Vaccination Centres.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">10. I am unable to accompany senior to the Vaccination Centre for his/her first dose. Can I nominate my friend / family member to accompany senior instead?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>It is important that seniors receive their COVID-19 vaccination as soon as possible. If you are not able to accompany senior for their vaccination, you may request that someone else accompany the senior. However, you will not be eligible for the token of appreciation.
+        <br><br>
+        We appreciate your effort in encouraging the senior to sign up for the COVID-19 vaccination to protect themselves and their loved ones.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">11. Can an individual who was previously diagnosed with COVID-19 be vaccinated?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>Individuals who have had an earlier COVID-19 infection, and have recovered, are recommended to receive a single dose of vaccine no earlier than 3 months after the date of their diagnosis if they had not already completed vaccination previously. There is evidence that a single dose would further boost their immunity against COVID-19. If you are unsure, check with the senior’s doctor.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">12. The senior I referred was previously diagnosed with COVID-19, and hence is unable to receive 2 doses of the vaccine. Will I be able to receive the token of appreciation?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>In this case, if the senior receives a single dose of vaccine no earlier than 3 months after the date of their diagnosis, he/she may be classified as “fully vaccinated”.
+         <br><br>
+         As such, you will be eligible for the token of appreciation once senior has been fully vaccinated and all of the following criteria is met:
+         <br>
+         a.Referrer and referred seniors are both eligible for the programme (refer to Question 3 for eligibility criteria)
+         <br>
+         b.Pre-registered for the programme prior to the date of senior’s vaccination
+         <br>
+         c.Accompanied senior for his/her first vaccination dose at selected Vaccination Centres and successfully completed the registration process on-ground
+         <br>
+         d.Referred senior received their single dose of vaccine no later than 30 November 2021.
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">13. How should seniors prepare for their vaccination appointment?
+      </p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>a.Remember to bring their ID (NRIC / FIN) for both appointments.
+         <br>
+         b.Please wear short sleeved attire, or sleeves loose enough to be rolled up.
+         <br>
+         c.It is advisable to stay hydrated, not come with an empty stomach, and avoid strenuous exercise.
+         <br><br>
+         In addition, seniors should postpone their appointment if they:
+         <br>
+         a.Feel unwell
+         <br>
+         b.Had a fever in the last 24 hours
+         <br>
+         c.Are serving Stay-Home Notice (SHN) or Quarantine Order (QO)
+         <br>
+         d.Tested positive for COVID-19 within the last 3 months
+       </p>
+   </div>
+      <h1 class="head2">TOKEN OF APPRECIATIONE</h1>
+   <div class="accordion">
+       <p class="title">14. Where can I find the Token of Appreciation?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The token of appreciation ($30 HPB eVouchers) will be credited to your Healthy 365 account
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">15. Can I still receive the token of appreciation if I do not have Healthy 365 app?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>No, you will need to download Healthy 365 app in order to receive the eVouchers. A step-by-step guide may be found <a href="HPB_Rewards_Programme_Getting_Started_Guide.pdf">here</a>
+       </p>
+   </div>
+   <div class="accordion">
+       <p class="title">17. What can I use HPB eVouchers for?</p>
+       <span class="show">+</span>
+   </div>
+   <div class="info">
+       <p>The list of participating merchants can be found under the details of the HPB eVoucher on the Healthy 365 app. You will be able to use multiple HPB eVouchers in a single transaction at any of the participating merchants’ outlets. Please note that HPB eVouchers is only valid for 90 days, from the date the vouchers were credited into your account.
+       </p>
+   </div>
+   <br><br><br><br><br><br><br><br><br>
+   <script ty
+   <script type="text/javascript">
+     var shows = document.querySelectorAll(".show");
+ var infos = document.querySelectorAll(".info");
+ var accordions = document.querySelectorAll(".accordion");
+
+ for (let i = 0; i < shows.length; i++) {
+   shows[i].onclick = function() {
+     for (let j = 0; j < shows.length; j++) {
+       if (shows[j] != this) {
+         infos[j].classList.remove("reveal");
+         shows[j].innerHTML = "+";
+         accordions[j].classList.remove("radius");
+       }
+     }
+     accordions[i].classList.toggle("radius");
+     infos[i].classList.toggle("reveal");
+     if (infos[i].className.includes("reveal")) shows[i].innerHTML = "-";
+     else shows[i].innerHTML = "+";
+   };
+ }
+   </script>
+  </body>
+</html>

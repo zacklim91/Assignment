@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-color: #ddfaf8;
+}
+
+section{
+  width: 80%;
+  text-align: left;
+  margin-left: 5%;
+  display: inline-block;
+}
+h1{
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+	color:#fff;
+  text-align: left;
+}
+
+h2{
+  color: #3161a3;
+  width: 100%;
+  font-size: 44px;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+  margin-left: 20px;
+
+}
+
+P{
+  color: #3161a3;
+  width: 80%;
+  font-size: 44px;
+  font-family: 'Merriweather', serif;
+}
+.p1{
+  position: relative;
+  left: 10%;
+}
+
+.p2{
+  color: #3161a3;
+  width: 60%;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.p3{
+  color: #3161a3;
+  width: 50%;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  text-align: right;
+  margin-left: 20px;
+  position: absolute;
+  left: 750px;
+}
+
+.videop{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  color:#fff;
+  text-align: left;
+}
+
+#myVideo {
+height: 70%;
+width: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 250px;
+  left: 3%;
+  color: #f1f1f1;
+  width: 90%;
+  padding: 20px;
+}
+
+#myBtn {
+  position: absolute;
+  top: 580px;
+  left: 0px;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+  opacity: 0.5;
+}
+
+.Regiterbtn{
+  color: #3161a3;
+  width: 90%;
+  font-size: 44px;
+  font-family: 'DM Serif Display', serif;
+  text-align: left;
+  border-radius: 25px;
+  border: 2px solid #3161a3;
+  padding: 20px;
+  width: 325px;
+  height: 110px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.Regiterbtn:hover{
+  background-color: #3161a3;
+  color: #ddfaf8;
+}
+
+.Stories1-img{
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.Stories2-img{
+  width: 25%;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}

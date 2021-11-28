@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style4.css" type="text/css">
+  </head>
+  <body>
+    <div class="login-box">
+  <h2>Registers</h2>
+  <form id="GFG" action="mailto:zackbear520@gmail.com" method="POST">
+    <div class="user-box">
+      <input type="text" name="name" value="" required>
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input type="user-box" name="contact" value="" required>
+      <label>Contact Number</label>
+    </div>
+    <div class="redio-check">
+      <label>Aged</label>
+      <br>
+      <input type="radio" id="age" name="age" value="">
+      <label for="aged">Age 50 - 60</label><br>
+      <input type="radio" id="age" name="age" value="">
+      <label for="aged"> Age 60 - 70</label><br>
+      <input type="radio" id="age" name="age" value="">
+      <label for="aged">Age 70 - 80</label>
+    </div>
+    <br>
+    <div class="redio-check">
+      <label>Prefer Covid-19 vaccination</label>
+      <br>
+      <input type="checkbox" id="Pfizer-BioNTech" name="Pfizer-BioNTech" value="Pfizer-BioNTech">
+      <label for="vehicle1"> Pfizer-BioNTech</label><br>
+      <input type="checkbox" id="Moderna" name="Moderna" value="Moderna">
+      <label for="Moderna"> Moderna</label><br>
+      <input type="checkbox" id="Sinovac-CoronaVac" name="Sinovac-CoronaVac" value="Sinovac-CoronaVac">
+      <label for="Sinovac-CoronaVac"> Sinovac-CoronaVac</label>
+    </div>
+    <div class="redio-check">
+    <br>
+    <label for="Region">Staying in Which area of Singapore:</label>
+    <select id="Region" name="Region">
+      <option value="North">North</option>
+      <option value="sSouth">South</option>
+      <option value="East">East</option>
+      <option value="West">West</option>
+      <option value="Central">Central</option>
+    </select>
+    </div>
+    <br>
+    <div class="textform">
+      <label>Questions</label>
+      <textarea rows="9" cols="35" name="YourMessage"> Enter message here...</textarea>
+    </div>
+    <a href="#" onclick="myFunction()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </a>
+  </form>
+</div>
+<div class="slideshow-container">
+  <h1><a href="steps.html">Photo Stories</a></h1>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="masthead_a_01.jpg" style="width:90%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="chue-khuan-hou.jpg" style="width:90%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="abdul-lathiff.jpg" style="width:90%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<div class="">
+<h1 class="maptitle"><a href="List_of_Vaccination_Centres.pdf">Vaccination Centres</a></h1>
+<iframe class="map"src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d75894.
+2549108757!2d103.77838656323192!3d1.
+356346517015546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssingapore%20vaccination%20centre!5e0!3m2!1sen!2ssg
+!4v1638038066320!5m2!1sen!2ssg"
+width="900" height="270" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+function myFunction() {
+    document.getElementById("GFG").submit();
+}
+</script>
+  </body>
+</html>
